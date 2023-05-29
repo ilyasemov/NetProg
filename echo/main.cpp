@@ -24,7 +24,7 @@ int main()
     sockaddr_in * jhf = new (sockaddr_in);
     jhf->sin_family = AF_INET;     
     jhf->sin_port = htons(7);  
-    jhf->sin_addr.s_addr = inet_addr("82.179.90.12"); 
+    jhf->sin_addr.s_addr = inet_addr("172.16.40.1"); 
     
     
     char *buffer = new char[4096];
